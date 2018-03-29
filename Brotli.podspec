@@ -31,10 +31,11 @@ An NSData category pod that provides Brotli compression and decompression for iO
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Brotli/Classes/**/*', 'Brotli/Source/c/common/*.c', 'Brotli/Source/c/dec/*.c', 'Brotli/Source/c/enc/*.c'
+  s.compiler_flags = '-Wno-unreachable-code'
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(PODS_TARGET_SRCROOT)/Brotli/Source/c/include'
   }
   s.preserve_paths = 'Brotli/Source/c/common/*.h', 'Brotli/Source/c/dec/*.h', 'Brotli/Source/c/enc/*.h', 'Brotli/Source/c/include/**/*'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Brotli/Classes/**/*.h'
 end
