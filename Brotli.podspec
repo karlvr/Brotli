@@ -24,7 +24,7 @@ An NSData category pod that provides Brotli compression and decompression for iO
   s.homepage         = 'https://github.com/karlvr/Brotli'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'karlvr' => 'karl@xk72.com' }
+  s.author           = { 'Karl von Randow' => 'karl@xk72.com' }
   s.source           = { :git => 'https://github.com/karlvr/Brotli.git', :tag => s.version.to_s, :submodules => true }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
