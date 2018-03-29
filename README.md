@@ -34,6 +34,8 @@ pod 'Brotli'
 
 Karl von Randow, karl@xk72.com
 
+This pod was inspired by the work of Matthew Cheok, https://github.com/matthewcheok/Brotli
+
 ## License
 
 Brotli is available under the MIT license. See the LICENSE file for more info.
