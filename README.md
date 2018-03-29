@@ -7,9 +7,19 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### Compression
 
-## Requirements
+```objc
+NSData *data = ...;
+NSData *compressed = [data brotliCompressed];
+```
+
+### Decompression
+
+```objc
+NSData *compressed = ...;
+NSData *decompressed = [compressed brotliDecompressed];
+```
 
 ## Installation
 
@@ -22,8 +32,10 @@ pod 'Brotli'
 
 ## Author
 
-karlvr, karl@xk72.com
+Karl von Randow, karl@xk72.com
 
 ## License
 
 Brotli is available under the MIT license. See the LICENSE file for more info.
+Brotli includes the official Brotli source code from https://github.com/google/brotli. That
+source code is covered by the official Brotli license, which is included in the LICENSE file.
