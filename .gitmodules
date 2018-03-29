@@ -1,3 +1,4 @@
 [submodule "Brotli/Source"]
 	path = Brotli/Source
 	url = https://github.com/google/brotli.git
+	depth = 1
