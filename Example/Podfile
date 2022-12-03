@@ -1,6 +1,0 @@
-use_frameworks!
-target 'Brotli_Tests' do
-  pod 'Brotli', :path => '../'
-  
-  
-end

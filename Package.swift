@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Brotli",
     platforms: [
-        .iOS(.v9),
+        .iOS(.v14),
         .macOS(.v10_14),
     ],
     products: [
