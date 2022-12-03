@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Brotli",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v9),
+        .macOS(.v10_14),
     ],
     products: [
         .library(
